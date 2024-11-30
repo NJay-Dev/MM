@@ -1,0 +1,263 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0fff4;
+   }
+   header {
+    background-color: #059669;
+    color: white;
+    padding: 1rem;
+   }
+   nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+   }
+   .nav-links {
+    display: flex;
+    align-items: center;
+   }
+   .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+   }
+   .nav-links a:hover {
+    background-color: #047857;
+   }
+   .nav-links a.active {
+    background-color: #047857;
+    font-weight: bold;
+   }
+   main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+   }
+   h1, h2, h3 {
+    color: #059669;
+   }
+   form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+   }
+   input, textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+   }
+   button {
+    background-color: #059669;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   }
+   button:hover {
+    background-color: #047857;
+   }
+   table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+   }
+   th, td {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    text-align: left;
+   }
+   th {
+    background-color: #059669;
+    color: white;
+   }
+   section {
+    margin-bottom: 2rem;
+   }
+   footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #e6f3ec;
+    color: #047857;
+   }
+   footer a {
+    color: #059669;
+    text-decoration: none;
+   }
+   footer a:hover {
+    text-decoration: underline;
+   }
+   
+   /* Login Page Styles */
+   .login-main {
+    position: relative;
+    height: calc(100vh - 100px); /* Subtract header and footer height */
+    background-image: url('../img/design.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(5, 150, 105, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+  }
+  
+  .login-container h1 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 1.5rem;
+  }
+  
+  .login-input-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .login-input-group label {
+    text-align: left;
+    margin-bottom: 0.5rem;
+    color: #e4eae8;
+  }
+  
+  .login-input-group input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .login-actions {
+    margin-top: 1.5rem;
+    width: 100%;
+  }
+  
+  .login-actions button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #059669;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-actions button:hover {
+    background-color: #047857;
+  }
+  
+  .login-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    width: 100%;
+  }
+  
+  .login-footer a {
+    color: #e4eae8;
+    text-decoration: none;
+  }
+  
+  .login-footer a:hover {
+    text-decoration: underline;
+  }
+  #error-message
+   {
+      color: #f06272;
+   }
+   /* Home Page Specific Styles */
+   .home-main    {
+    position: relative;
+    height: calc(100vh - 100px); /* Subtract header and footer height */
+    background-image: url('../img/design.png');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+   }
+   
+   .home-content {
+    background-color: rgba(5, 150, 105, 0.7); /* Emerald green with opacity */
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 90%;
+   }
+   
+   .home-content h1 {
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+   }
+   
+   .home-content p {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+   }
+   
+   .home-cta {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+   }
+   
+   .btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+   }
+   
+   .btn {
+    background-color: white;
+    color: #059669;
+   }
+   
+   .btn:hover {
+    background-color: #f0f0f0;
+   }
+   
+   .btn-secondary {
+    background-color: #047857;
+    color: white;
+   }
+   
+   .btn-secondary:hover {
+    background-color: #059669;
+   }

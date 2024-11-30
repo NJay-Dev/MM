@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MM PORTERAGE SERVICES - Login</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script type="text/javascript" src="validation.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">MM PORTERAGE SERVICES</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+                <a href="login.html" class="active">Login</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="login-main">
+        <div class="login-container">
+            <h1>Login</h1>
+            <div class="login-options">
+                <button id="user-login-btn" class="login-type-btn active">User Login</button>
+                <button id="admin-login-btn" class="login-type-btn">Admin Login</button>
+            </div>
+            <p id ="error-message"></p>
+            <form id="login-form">
+
+               <div class="login-input-group">
+                    <label for="firstname">Firstname</label>
+                    <input type="text" id="firstname" name="firstname" required>
+                </div> 
+
+                <div class="login-input-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+
+                <div class="login-input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+
+                <div class="login-actions">
+                    <button type="submit" id="login-submit-btn">Submit</button>
+                </div>
+            </form>
+
+            <div class="login-footer">
+                <a href = "login.html">Already have an Account?</a> 
+                <a href="#" id="forgot-password">Forgot Password?</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 MM Porterage. Made by <a href="https://www.madenet.site">Madenet</a>.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

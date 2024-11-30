@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MM PORTERAGE SERVICES - Admin Dashboard</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="admin_dashboard.html" class="logo">MM PORTERAGE SERVICES</a>
+            <div class="nav-links">
+                <a href="#" id="logout-link">Logout</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Admin Dashboard</h1>
+        
+        <section id="transactions-section">
+            <h2>All Transactions</h2>
+            <table id="transactions-table">
+                <thead>
+                    <tr>
+                        <th>Employee</th>
+                        <th>Client</th>
+                        <th>Amount</th>
+                        <th>Description</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </section>
+
+        <section id="timesheets-section">
+            <h2>All Timesheets</h2>
+            <table id="timesheets-table">
+                <thead>
+                    <tr>
+                        <th>Employee</th>
+                        <th>Date</th>
+                        <th>Start Time</th>
+                        <th>End Time</th>
+                        <th>Total Hours</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 MM Porterage. Made by <a href="https://www.madenet.site">Madenet</a>.</p>
+    </footer>
+    <script src="MM2/script.js"></script>
+</body>
+</html>
